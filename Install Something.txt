@@ -1,0 +1,6 @@
+- name: Install Tableau Primary Networked Server
+  win_package:
+    path:     https://downloads.tableau.com/esdalt/10.5.2/TableauServer-64bit-10-5-2.exe
+    product_id: '{de34b492-22dd-4bc5-b22f-e88cb0ad1581}'
+    state: present
+    arguments: "/VERYSILENT /ACCEPTEULA /CUSTOMCONFIG=C:\tmp\tabsvc.yml"

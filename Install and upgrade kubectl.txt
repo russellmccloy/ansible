@@ -1,0 +1,8 @@
+- name: Install kubernetes-cli
+  win_chocolatey:
+    name: kubernetes-cli
+
+- name: Upgrade installed kubernetes-cli
+  win_chocolatey:
+    name: kubernetes-cli
+    state: latest

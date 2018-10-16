@@ -1,0 +1,4 @@
+- name: Copy Tableau Config File
+  win_copy:
+    src: files/tabsvc.yml 
+    dest: C:\tmp\

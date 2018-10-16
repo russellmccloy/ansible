@@ -1,0 +1,3 @@
+- name: Set timezone to AUS Eastern Standard Time (AEST)
+  win_timezone:
+    timezone: AUS Eastern Standard Time
